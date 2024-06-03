@@ -3,10 +3,13 @@ import axios from "axios";
 import { XMLParser } from "fast-xml-parser";
 import "./App.css";
 
-const parser = new XMLParser()
+const options = {
+  ignoreAttributes : false
+};
+const parser = new XMLParser(options)
 
 function App() {
-  const [xml, setXml] = useState();
+  // const [xml, setXml] = useState();
 
   
 
