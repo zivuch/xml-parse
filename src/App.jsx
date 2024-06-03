@@ -10,7 +10,9 @@ const parser = new XMLParser(options)
 
 function App() {
   // const [xml, setXml] = useState();
-
+  /**
+   * add a state variable to store the XML data
+   */
   
 
   useEffect(() => {
