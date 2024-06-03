@@ -12,6 +12,7 @@ function App() {
   // const [xml, setXml] = useState();
   /**
    * add a state variable to store the XML data
+   * and set the initial value to an empty string
    */
   
 
